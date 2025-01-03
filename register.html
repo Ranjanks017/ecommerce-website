@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration page</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="register-page">
+        <p class="sign-up-main">Sign up with</p>
+        <div class="signup-options">
+            <img class="google-logo" src="images/google-logo.png">
+            <img class="apple-logo" src="images/apple-logo.webp">
+            <img class="facebook-logo" src="images/facebook-logo.png">
+        </div>
+        <p>OR</p>
+        <form  id="registrationForm" class="register-form">
+            <input id="newUsername" class="user-name" type="text" placeholder="Enter usename" required>
+            <input class="email" type="email" placeholder="Enter your email" required>
+            <input id="newPassword" class="password" type="password" placeholder="Password" required>
+            <button type="submit" class="sign-up">Register</button>
+        </form>
+        <p id="registerMessage"></p>
+    <p>Already have an account? <a href="login.html">Login here</a>.</p>
+  </div>
+  <script src="register.js"></script>
+  </div> 
+</body>
+</html>

@@ -1,0 +1,74 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-section {
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.middle-section {
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 35px;
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.right-section {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+}
+
+.main-logo {
+    height: 45px;
+    padding-left: 80px;
+    width: 250px;
+}
+
+.search-bar {
+    height: 40px;
+    width: 540px;
+    padding-left: 20px;
+    border-style: solid;
+    border: none;
+    background-color: rgb(243, 233, 233);
+    border-radius: 8px;
+}
+
+.search-bar::placeholder {
+    font-size: 16px;
+}
+
+.login {
+    padding-left: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.drop-down {
+    padding-left: 10px;
+}
+
+.header-cart, .store-logo {
+    padding-left: 60px;
+}
+
+.cart, .store-icon {
+    padding-left: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.vertical-dots {
+    padding-left: 60px;
+}
+
+.drop-down, .header-cart, .store-logo, .vertical-dots:hover {
+    cursor: pointer;
+}
