@@ -1,0 +1,192 @@
+.dress-container-2 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 14px;
+    margin-bottom: 8px;
+}
+
+.dress-2 {
+    width: 400px;
+    height: 600px;
+    position: relative;
+    position: static;
+}
+
+.like-image {
+    position: absolute;
+    width: 40px;
+    margin-top: 4px;
+    margin-left: 356px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    max-width: 418px;
+    height: 56px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-to-cart {
+    height: 56px;
+    width: 210px;
+    border: none;
+    background-color: orange;
+}
+
+.buy-now{
+    height: 56px;
+    width: 220px;
+    margin-left: 10px;
+    border: none;
+    background-color: blueviolet;
+}
+
+.add-to-cart, .buy-now:hover {
+    cursor: pointer;
+}
+
+.dress-2-info {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.dress-2-brand {
+    color: gray;
+}
+
+.dress-2-name {
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.dress-2-price {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .dress-container-2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 8px;
+        margin-bottom: 4px;
+        width: 330px;
+    }
+    
+    .dress-2 {
+        width: 340px;
+        height: 320px;
+        position: relative;
+        position: static;
+    }
+    
+    .like-image {
+        position: absolute;
+        width: 26px;
+        margin-top: 3px;
+        right: 0;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .dress-2-info {
+        margin-left: 0;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+    
+    .dress-2-brand {
+        color: gray;
+    }
+    
+    .dress-2-name {
+        font-size: 18px;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    .dress-2-price {
+        font-size: 28px;
+        font-weight: bold;
+        margin: 0;
+    }
+    
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        max-width: 170px;
+        height: 56px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .add-to-cart {
+        height: 56px;
+        width: 210px;
+        border: none;
+        background-color: orange;
+    }
+    
+    .buy-now {
+        height: 56px;
+        width: 220px;
+        margin-left: 10px;
+        border: none;
+        background-color: blueviolet;
+    }
+    
+    .add-to-cart, .buy-now:hover {
+        cursor: pointer;
+    }
+
+    .footer-section {
+        width: 360px;
+        height: 120px;
+        color: white;
+        background-color: rgb(36, 34, 34);
+        display: flex;
+        margin-top: 80px;
+        flex-direction: row;
+    }
+    
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        align-items: center;
+        width: 80px;
+        padding-top: 16px;
+    }
+    
+    .company-section {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        align-items: center;
+        width: 80px;
+        padding-top: 16px;
+    }
+    
+    .footer-section p {
+        margin: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    
+    .about, .company {
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        font-size: 18px;
+        padding-bottom: 8px;
+    }
+}

@@ -1,0 +1,138 @@
+.register-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(248, 243, 243);
+    width: 400px;
+    height: 540px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    box-shadow: 4px 8px 20px rgba(0,0,0,0.4)
+}
+
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sign-up-main {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-name {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 100px;
+    border: none;
+    border-radius: 14px;
+}
+
+.email {
+    margin-top: 4px;
+    margin-bottom: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 100px;
+    border: none;
+    border-radius: 14px;
+}
+
+.password {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 14px;
+}
+
+.user-name, .email, .password::placeholder {
+    font-weight: bold;
+}
+
+.sign-up {
+    font-size: 16px;
+    border: none;
+    background-color: rgb(241, 107, 107);
+    padding-right: 112px;
+    padding-left: 112px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    color: white;
+}
+
+.signup-options{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    justify-content: space-between;
+}
+
+.google-logo, .apple-logo, .facebook-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.google-logo, .apple-logo, .facebook-logo:hover {
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    cursor: pointer;
+    background-color: rgb(231, 136, 136);
+}
+
+
+@media (max-width: 600px) {
+    .register-page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(241, 236, 236);
+        width: 336px;
+        height: 600px;
+        justify-content: center;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: 8px;
+        margin-right: 8px;
+        border-radius: 60px;
+    }
+
+    .user-name, .email, .password {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 16px;
+        padding-right: 60px;
+        border: none;
+        border-radius: 14px;
+        width: 200px;
+    }
+
+    .password {
+        margin-bottom: 14px;
+    }
+}

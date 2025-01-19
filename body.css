@@ -1,0 +1,144 @@
+.body-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1260px;
+    height: 900px;
+    margin-left: 80px;
+    border: solid;
+    border-color: rgb(250, 250, 250);
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-1, .banner-2{
+    width: 1260px;
+    height: 450px;
+}
+
+.shop-btn {
+    position: absolute;
+    bottom: 0;
+    background-color: aqua;
+    padding: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.women-collections {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: orange;
+}
+
+.dress-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    background-color: rgb(250, 250, 250);
+}
+
+.dress-grid img {
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.dress-info-grid {
+    margin-top: 2px;
+    margin-bottom: 10px;
+    display: grid;
+    max-width: 300px;
+    grid-template-columns: 300px;
+    background-color: white;
+}
+
+.dress-info-grid p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 600px) {
+    .body-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 386px;
+        height: 900px;
+        margin-left: 6px;
+        margin-right: 6px;
+        border: solid;
+        border-color: rgb(243, 237, 237);
+    }  
+    
+    .banner {
+        position: relative;
+    }
+    
+    .banner-1, .banner-2 {
+        width: 382px;
+        height: 200px;
+        padding-left: 2px;
+    }
+
+    .shop-btn {
+        position: absolute;
+        background-color: aqua;
+        padding: 4px;
+        margin-left: 6px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8px;
+    }
+
+    .women-collections {
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        color: orange;
+    }
+
+    .dress-grid {
+        margin-top: 20px;
+        margin-right: 6px;
+        padding-left: 2px;
+        padding-right: 4px;
+        margin-left: 6px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4px;
+        row-gap: 4px;
+        background-color: white;
+    }
+
+    .dress-grid img {
+        height: 150px;
+        width: 182px;
+        cursor: pointer;
+    }
+
+    .dress-info-grid {
+        margin-top: 2px;
+        margin-bottom: 10px;
+        display: grid;
+        max-width: 182px;
+        grid-template-columns: 140px;
+        background-color: white;
+    }
+    
+    .dress-info-grid p {
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+}

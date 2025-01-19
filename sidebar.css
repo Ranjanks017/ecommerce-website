@@ -1,0 +1,20 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    background-color: white;
+    width: 70px;
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        top: 60px;
+        background-color: white;
+        width: 0px;
+    }
+}
+
